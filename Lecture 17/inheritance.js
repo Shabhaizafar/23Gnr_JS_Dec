@@ -83,24 +83,4 @@ console.log(fatherobj.fathername)
 
 
 /////////////////////////////////////////////////////////////////////////
-/*
 
- Multilevel: 
-
-practice Question list of inheritance in js using Multiple inheritance:
-1)Create a class Animal with the properties species and color. Provide methods to add
-species and color, as well as a method called speak that outputs “I am an animal”.
-2)Create a subclass Mammal which inherits from Animal and has additional property age. It
-should provide methods to add age, as well as a method called eat that outputs “I
-am eating”.
-3)Create another subclass Dog which also inherits from Mammal but overrides the speak method
-to output “Woof!” instead of “I am an animal” and provides a method bark that outputs “I am barking”.
-4)Create a main program that creates an object of type Dog, sets its species and color,
-age, and calls all the provided methods. The output should be something like this:
-Dog’s color is black.
-Dog’s age is 5.
-Dog says Woof!
-Dog is eating.
-Dog is barking.
-
-*/ 
