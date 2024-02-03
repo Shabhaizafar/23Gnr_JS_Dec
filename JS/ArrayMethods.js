@@ -77,7 +77,7 @@
 
 // const ans =  Arr.every(
 //     (a)=>{
-//         return a>=1;
+//         return a>=2;
 //     }
 // );
 // console.log(ans);
@@ -86,7 +86,28 @@
 /////////////////////////////////////
 // 7) some
 // const Arr = [1,2,3,4,5,6,7,8,9];
+
+// const ans = Arr.some(
+//     (a)=>{
+//         return a>=10;
+//     }
+// );
+
+// console.log(ans);
+
+////////////////////////////////////
 // 8) fill
-// const Arr = [1,2,3,4,5,6,7,8,9];
+// const Arr = [10,2,3,4,5,6,7,8,9];
+
+// var Arr2 = Arr.fill(0,3);
+// Arr.fill(1,0,4);
+// console.log(Arr2);
+
+//////////////////////////////////
 // 9) splice
 // const Arr = [1,2,3,4,5,6,7,8,9];
+
+// var Arr2 = Arr.splice(3,2,100,1001,10101);
+// console.log("Arr2 : ",Arr2);
+// console.log(Arr);
+
