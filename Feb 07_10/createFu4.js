@@ -15,7 +15,6 @@ const AllMethods = {
 };
 
 function User(fname,lname,age,email,address){
-    // 
     var user = Object.create(AllMethods);
     user.fname = fname;
     user.lname = lname;
